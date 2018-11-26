@@ -1,0 +1,41 @@
+1
+Con git checkout -b [nombre de la rama] creamos una rama nueva y cambiamos a ella. Finalmente usaremos la órden git status para
+saber en qué rama estamos.
+Entra dins de la branca00. Trobaràs informació de com fer-ho a la documentació. Comprova des de l'interpret d'ordres l'estat del projecte
+i a quina branca et trobes.
+
+
+
+5
+Cambiaremos de rama mediante un git checkout, a continuación haremos un git status para ver el estado de la rama master
+y finalmente haremos un git log para ver el historia de la rama master. En las 2 ramas existe un commit en común, sin
+embargo en la rama branca00 hemos hecho un commit de más que es donde hemos modificado el archivo prjava02.java y le
+hemos dado el comentario de que estamos en v1.1 en el commit.
+
+
+10
+Primero de todo haremos un checkout a la branca master.
+Fusionaremos las ramas mediante la orden merge e iremos al archivo prjava02.java que tenemos abierto en el Notepad y
+veremos que se ha modificado.
+
+
+14
+Primero que todo haremos un push de la rama branca01.
+a continuación iremos al GitHub y comprobaremos que realmente está la rama branca01.
+
+
+6
+nO SALE PORQUE ESTAMOS EN LA OTRA RAMA.
+
+
+
+
+7
+Al entrar al Notepad en mi caso y actualizar, veremos que no está la última línea debido a que ahora estamos trabajando sobre
+el archivo prjava02.java de la rama master, no de la branca00.
+
+
+12
+hAREMOS UN GIT PUSH
+Al hacer esto, veremos que se ha modificado la rama master y se ha creado la rama branca00.
+Pprque solo lo hemos subido a la branca master
